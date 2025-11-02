@@ -82,8 +82,8 @@ Bagian ini akan memandu Anda untuk menjalankan proyek ini secara lokal.
 
 1.  Clone *repository backend*:
     ```sh
-    git clone [URL_REPO_BACKEND_ANDA]
-    cd floovia-api
+    git clone https://github.com/VinXBoi/PKMKC_FLOOVIA_BACKEND.git
+    cd PKMKC_FLOOVIA_BACKEND
     ```
 2.  Buat dan aktifkan *virtual environment*:
     ```sh
@@ -108,6 +108,7 @@ Bagian ini akan memandu Anda untuk menjalankan proyek ini secara lokal.
 2.  Tempatkan file konfigurasi Firebase Anda:
     * Tempatkan `google-services.json` di dalam `android/app/`.
     * Tempatkan `GoogleService-Info.plist` di dalam `ios/Runner/`.
+    * Tempatkan `API_KEY` di dalam `android/app/main/AndroidManifest.cml`.
 3.  Install dependensi Flutter:
     ```sh
     flutter pub get
